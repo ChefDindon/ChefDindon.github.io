@@ -59,6 +59,28 @@ header nav ul li a:hover {
     border-radius: 5px;
 }
 
+/* Section Accueil */
+.accueil {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.accueil h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.accueil p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.accueil .btn {
+    background-color: #333;
+    color: #fff;
+}
+
 /* Section À propos de moi */
 .about {
     background-color: #fff;
