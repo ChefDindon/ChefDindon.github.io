@@ -1,2 +1,7 @@
-h1{
-}
+    <header>
+        <div class="container">
+            <h1>Bienvenue sur mon Portfolio</h1>
+            <p>Je suis [Votre Nom], un développeur web passionné.</p>
+            <a href="#about" class="btn">En savoir plus</a>
+        </div>
+    </header>
