@@ -14,7 +14,7 @@ body {
 
 /* En-tête avec un titre et un lien sous celui-ci */
 header {
-    background-color: #333;
+    background-color: #2C3E50;
     padding: 30px 0;
     text-align: center;
 }
@@ -108,7 +108,7 @@ header {
 
 /* Pied de page */
 footer {
-    background-color: #333;
+    background-color: #2C3E50;
     color: #fff;
     padding: 20px 0;
     text-align: center;
