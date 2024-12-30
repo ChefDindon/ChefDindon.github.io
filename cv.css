@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #2C3E50;
+    background-color: #92aaca;
     color: #333;
 }
 
@@ -73,7 +73,7 @@ header {
 }
 
 
-.presentation h3 {
+.presentation h2 {
     text-align : center
     font-size: 2.5em;
     margin-bottom: 20px;
