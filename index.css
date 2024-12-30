@@ -36,6 +36,7 @@ header {
 .logo img {
     width: 10px; /* Définissez la taille de l'image selon vos préférences */
     height: 10px;
+    displayy: block
 }
 
 /* Style pour le titre */
