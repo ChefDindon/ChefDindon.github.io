@@ -27,7 +27,8 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: flex-start; /* Aligner l'image à gauche */
+    justify-content: space-between; /* Espace entre l'image et le titre */
+    align-items: center; /* Aligner le titre et l'image verticalement */
     padding: 0 20px;
 }
 
@@ -38,7 +39,12 @@ header {
     display: block; /* Assurez-vous que l'image est un élément de type bloc */
 }
 
-
+/* Style pour le titre */
+.h1 {
+    font-size: 2em;
+    color: #fff;
+    margin-left: 20px; /* Ajoute un espacement entre le logo et le titre */
+}
 
 /* Section Galerie */
 .galerie {
