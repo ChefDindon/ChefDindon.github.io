@@ -33,27 +33,12 @@ header {
 
 /* Style pour le logo */
 .logo img {
-    width: 100px; /* Définissez la taille de l'image selon vos préférences */
+    width: 10px; /* Définissez la taille de l'image selon vos préférences */
     height: auto;
     display: block; /* Assurez-vous que l'image est un élément de type bloc */
 }
 
-/* Section Accueil */
-.accueil {
-    background-color: #fff;
-    padding: 50px 0;
-    text-align: center;
-}
 
-.accueil h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.accueil p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-}
 
 /* Section Galerie */
 .galerie {
