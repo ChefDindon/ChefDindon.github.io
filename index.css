@@ -40,7 +40,7 @@ header {
 }
 
 /* Style pour le titre */
-.h1 {
+.site-title {
     font-size: 2em;
     color: #fff;
     margin-left: 20px; /* Ajoute un espacement entre le logo et le titre */
