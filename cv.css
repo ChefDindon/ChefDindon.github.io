@@ -71,15 +71,6 @@ header {
     overflow: hidden;
 }
 
-.presentation .profile-image {
-    position: absolute;
-    top: 20px;  /* Espace du haut */
-    right: 20px; /* Espace du côté droit */
-    width: 150px; /* Largeur de l'image */
-    height: auto;  /* Conserver les proportions de l'image */
-    border-radius: 50%; /* Arrondir l'image, facultatif */
-    border: 3px solid #ff7f50; /* Bordure autour de l'image, facultatif */
-}
 
 .presentation h2 {
     font-size: 2.5em;
