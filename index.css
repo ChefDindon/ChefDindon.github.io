@@ -34,8 +34,8 @@ header {
 
 /* Style pour le logo */
 .home {
-    width: 1px; /* Définissez la taille de l'image selon vos préférences */
-    height: 1px;
+    width: 0,1px; /* Définissez la taille de l'image selon vos préférences */
+    height: 0,1px;
 }
 
 /* Style pour le titre */
