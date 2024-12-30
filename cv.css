@@ -68,7 +68,7 @@ header {
     padding: 50px 0;
     text-align: center;
     position: relative; /* Nécessaire pour positionner l'image absolument */
-    margin: 0 20px; /* Ajoute une marge de 20px à gauche et à droite de la section */
+    margin: 0 100px; /* Ajoute une marge de 20px à gauche et à droite de la section */
 }
 
 .presentation .container {
