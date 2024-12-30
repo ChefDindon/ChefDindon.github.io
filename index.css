@@ -74,13 +74,13 @@ header nav ul li a:hover {
 .image-container {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Espacement entre les images */
-    flex-wrap: wrap; /* Permet aux images de se réorganiser en fonction de l'espace */
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .image-item {
     flex: 1;
-    max-width: 300px; /* Limite la largeur de chaque image */
+    max-width: 300px;
     margin: 0 10px;
 }
 
