@@ -45,165 +45,68 @@ header {
     background-color: #ff6347;
 }
 
-/* Section Accueil */
-.accueil {
-    background-color: #fff;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.accueil h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.accueil p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-}
-
-/* Section Galerie */
-.galerie {
-    background-color: #fff;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.galerie h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.image-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px; /* Espacement entre les images */
-    flex-wrap: wrap; /* Permet aux images de se réorganiser en fonction de l'espace */
-}
-
-.image-item {
-    flex: 1;
-    max-width: 300px; /* Limite la largeur de chaque image */
-    margin: 0 10px;
-    text-align: center; /* Centrer le texte sous chaque image */
-}
-
-.image-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.image-text {
-    font-size: 1.2em;
-    color: #333;
-    margin-top: 10px; /* Ajoute un petit espace entre l'image et le texte */
-    text-align: center; /* Centrer le texte */
-}
-
-
-/* Section Accueil */
-.accueil {
-    background-color: #fff;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.accueil h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.accueil p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-}
-
-.accueil .btn {
-    background-color: #333;
-    color: #fff;
-}
-
-/* Section À propos de moi */
-.about {
-    background-color: #fff;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.about h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.about p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-}
-
-.about .btn {
-    background-color: #333;
-    color: #fff;
-}
-
 /* Section Projets */
-.projects {
-    background-color: #f9f9f9;
+.projets {
+    background-color: #f4f4f4;
     padding: 50px 0;
     text-align: center;
 }
 
-.projects h2 {
+.projets h2 {
     font-size: 2.5em;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    color: #333;
 }
 
-.project-card {
+/* Conteneur des projets */
+.projet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
-.project-card img {
-    width: 100%;
+/* Image du projet */
+.projet-image {
+    width: 200px; /* Taille de l'image */
     height: auto;
-    border-radius: 5px;
+    margin-right: 30px; /* Espacement entre l'image et le texte */
+    border-radius: 8px;
+    object-fit: cover; /* Assure que l'image couvre bien la zone */
 }
 
-.project-card h3 {
-    font-size: 1.5em;
-    margin-top: 10px;
+/* Texte du projet */
+.projet-text {
+    text-align: left;
+    max-width: 600px;
 }
 
-.project-card p {
-    font-size: 1em;
+.projet-text h3 {
+    font-size: 2em;
     margin-bottom: 10px;
+    color: #333;
 }
 
-.project-card .btn {
-    background-color: #ff7f50;
-    color: #fff;
-}
-
-/* Section Contact */
-.contact {
-    background-color: #fff;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.contact h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.contact p {
+.projet-text p {
     font-size: 1.2em;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    color: #555;
 }
+
+.projet-text a {
+    color: #ff7f50;
+    text-decoration: none;
+}
+
+.projet-text a:hover {
+    text-decoration: underline;
+}
+
 
 /* Pied de page */
 footer {
