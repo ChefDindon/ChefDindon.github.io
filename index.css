@@ -15,9 +15,6 @@ header {
     background-color: #2C3E50;
     padding: 30px 0;
     text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
 }
 
 
@@ -30,7 +27,7 @@ header {
 
 /* Section Galerie */
 .galerie {
-    background-color: #92aaca;
+    background-color: #fff;
     padding: 50px 0;
     text-align: center;
 }
@@ -43,15 +40,15 @@ header {
 .image-container {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Espacement entre les images */
-    flex-wrap: wrap; /* Permet aux images de se réorganiser en fonction de l'espace */
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .image-item {
     flex: 1;
-    max-width: 300px; /* Limite la largeur de chaque image */
+    max-width: 300px;
     margin: 0 10px;
-    text-align: center; /* Centrer le texte sous chaque image */
+    text-align: center;
 }
 
 .image-item img {
@@ -64,8 +61,8 @@ header {
 .image-text {
     font-size: 1.2em;
     color: #333;
-    margin-top: 10px; /* Ajoute un petit espace entre l'image et le texte */
-    text-align: center; /* Centrer le texte */
+    margin-top: 10px;
+    text-align: center;
 
 
 /* Section À propos de moi */
