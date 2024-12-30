@@ -26,7 +26,7 @@ header {
 .site-title {
     font-size: 2.5em;
     color: #fff;
-    margin-bottom: 10px; /* Ajoute un espacement sous le titre */
+    margin-bottom: 20px; /* Ajoute un espacement sous le titre */
 }
 
 /* Style pour le lien vers l'Accueil */
@@ -60,12 +60,6 @@ header {
 .accueil p {
     font-size: 1.2em;
     margin-bottom: 20px;
-}
-/* Style pour le titre */
-.site-title {
-    font-size: 2em;
-    color: #fff;
-    margin-left: 20px; /* Ajoute un espacement entre le logo et le titre */
 }
 
 /* Section Galerie */
