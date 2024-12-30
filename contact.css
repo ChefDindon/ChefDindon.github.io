@@ -44,6 +44,46 @@ header {
 .home-link:hover {
     background-color: #ff6347;
 }
+
+/* Section Galerie */
+.galerie {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.galerie h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacement entre les images */
+    flex-wrap: wrap; /* Permet aux images de se réorganiser en fonction de l'espace */
+}
+
+.image-item {
+    flex: 1;
+    max-width: 300px; /* Limite la largeur de chaque image */
+    margin: 0 10px;
+    text-align: center; /* Centrer le texte sous chaque image */
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-text {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+    text-align: center;
+    
 /* Section Contacts */
 .contacts {
     background-color: #f4f4f4;
