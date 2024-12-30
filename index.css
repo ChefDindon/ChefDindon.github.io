@@ -33,7 +33,7 @@ header {
 }
 
 /* Style pour le logo */
-.logo img {
+.home img {
     width: 1px; /* Définissez la taille de l'image selon vos préférences */
     height: 1px;
     display: block;
