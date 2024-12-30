@@ -81,36 +81,6 @@ header {
     margin-top: 10px;
     text-align: center;
     
-/* Section Contacts */
-.contacts {
-    background-color: #f4f4f4;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.contacts h2 {
-    font-size: 2.5em;
-    margin-bottom: 30px;
-    color: #333;
-}
-
-.contact-icons {
-    display: flex;
-    justify-content: center;
-    gap: 30px; /* Espacement entre les icônes */
-}
-
-.contact-icon img {
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-.contact-icon img:hover {
-    transform: scale(1.1); /* Agrandissement au survol */
-}
-
 /* Pied de page */
 footer {
     background-color: #2C3E50;
