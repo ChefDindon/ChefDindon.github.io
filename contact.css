@@ -44,165 +44,76 @@ header {
 .home-link:hover {
     background-color: #ff6347;
 }
-
-/* Section Accueil */
-.accueil {
-    background-color: #fff;
+/* Section Contacts */
+.contacts {
+    background-color: #f4f4f4;
     padding: 50px 0;
     text-align: center;
 }
 
-.accueil h2 {
+.contacts h2 {
     font-size: 2.5em;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    color: #333;
 }
 
-.accueil p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-}
-
-/* Section Galerie */
-.galerie {
-    background-color: #fff;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.galerie h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.image-container {
+.contact-icons {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Espacement entre les images */
-    flex-wrap: wrap; /* Permet aux images de se réorganiser en fonction de l'espace */
+    gap: 30px; /* Espacement entre les icônes */
 }
 
-.image-item {
-    flex: 1;
-    max-width: 300px; /* Limite la largeur de chaque image */
-    margin: 0 10px;
-    text-align: center; /* Centrer le texte sous chaque image */
+.contact-icon img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
-.image-item img {
+.contact-icon img:hover {
+    transform: scale(1.1); /* Agrandissement au survol */
+}
+
+/* Popup (Modal) */
+.popup {
+    display: none; /* Caché par défaut */
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fond sombre */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
 }
 
-.image-text {
-    font-size: 1.2em;
-    color: #333;
-    margin-top: 10px; /* Ajoute un petit espace entre l'image et le texte */
-    text-align: center; /* Centrer le texte */
-}
-
-
-/* Section Accueil */
-.accueil {
+.popup-content {
     background-color: #fff;
-    padding: 50px 0;
+    padding: 30px;
+    border-radius: 8px;
     text-align: center;
+    max-width: 500px;
+    width: 80%;
 }
 
-.accueil h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.accueil p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-}
-
-.accueil .btn {
-    background-color: #333;
-    color: #fff;
-}
-
-/* Section À propos de moi */
-.about {
-    background-color: #fff;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.about h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.about p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-}
-
-.about .btn {
-    background-color: #333;
-    color: #fff;
-}
-
-/* Section Projets */
-.projects {
-    background-color: #f9f9f9;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.projects h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.project-card {
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.project-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-.project-card h3 {
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
     font-size: 1.5em;
-    margin-top: 10px;
+    cursor: pointer;
 }
 
-.project-card p {
-    font-size: 1em;
-    margin-bottom: 10px;
-}
-
-.project-card .btn {
-    background-color: #ff7f50;
-    color: #fff;
-}
-
-/* Section Contact */
-.contact {
-    background-color: #fff;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.contact h2 {
-    font-size: 2.5em;
+.popup h3 {
+    font-size: 2em;
     margin-bottom: 20px;
+    color: #333;
 }
 
-.contact p {
+.popup p {
     font-size: 1.2em;
-    margin-bottom: 20px;
+    color: #555;
 }
 
 /* Pied de page */
