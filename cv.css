@@ -60,7 +60,7 @@ header {
     margin: 10px; /* Centrer le contenu de la section */
 }
 
-.cv {
+.cv p {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,7 +73,8 @@ header {
 }
 
 
-.presentation h2 {
+.cv h2 {
+    text-align : center
     font-size: 2.5em;
     margin-bottom: 20px;
     color: #333;
