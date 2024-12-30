@@ -73,7 +73,7 @@ header {
 
 .presentation .container {
     max-width: 1200px; /* Limite la largeur du contenu à 1200px */
-    margin: 0 auto; /* Centrer le contenu de la section */
+    margin: 10px; /* Centrer le contenu de la section */
 }
 
 .presentation .profile-image {
