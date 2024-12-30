@@ -52,6 +52,10 @@ header {
     text-align: center;
     position: relative; /* Nécessaire pour positionner l'image absolument */
     margin: 50px; /* Ajoute une marge de 20px à gauche et à droite de la section */
+    display: flex;
+    flex-direction: column; /* Arrange les éléments verticalement */
+    align-items: center; /* Centrer les éléments horizontalement */
+    justify-content: flex-start; /* Aligner au début */
 }
 
 .presentation .container {
